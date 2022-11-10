@@ -26,7 +26,7 @@ jobs:
 
       - name: Check coding style
         run: |
-          bundle exec standard
+          bundle exec standardrb
 
       - name: test with Rake
         run: |
