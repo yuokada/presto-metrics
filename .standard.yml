@@ -4,8 +4,22 @@ format: progress        # default: Standard::Formatter
 default_ignores: false  # default: true
 
 ignore:
+  - 'Rakefile'
   - 'presto-metrics.gemspec'
   - 'lib/presto/**/*.rb':
       - Style/StringLiterals
+      - Naming/VariableName
+      - Performance/RedundantSplitRegexpArgument
+      - Performance/StringReplacement
+      - Performance/UriDefaultParser
+      - Style/ClassCheck
+      - Style/EmptyLiteral
+      - Style/IfInsideElse
+      - Style/TrailingCommaInHashLiteral
+      - Style/ConditionalAssignment
+      - Style/MethodCallWithoutArgsParentheses
+      - Style/MixinUsage
+      - Style/PercentLiteralDelimiters
+      - Style/RedundantBegin
   - 'test/**/*':
       - Layout/AlignHash
