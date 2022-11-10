@@ -1,0 +1,11 @@
+---
+fix: false
+format: progress        # default: Standard::Formatter
+default_ignores: false  # default: true
+
+ignore:
+  - 'presto-metrics.gemspec'
+  - 'lib/presto/**/*.rb':
+      - Style/StringLiterals
+  - 'test/**/*':
+      - Layout/AlignHash
